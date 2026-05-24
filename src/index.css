@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer utilities {
+  .animate-text-flow {
+    background-size: 200% auto;
+    animation: textFlow 8s linear infinite;
+  }
+}
+
+@keyframes textFlow {
+  0% { background-position: 200% center; opacity: 0.7; }
+  50% { opacity: 1; text-shadow: 0 0 20px rgba(255, 255, 255, 0.2); }
+  100% { background-position: -200% center; opacity: 0.7; }
+}
