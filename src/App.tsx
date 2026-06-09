@@ -654,13 +654,13 @@ export default function App() {
             <div>
               <h5 className="font-bold text-white uppercase tracking-wider text-[10px] mb-4">Colombo HQ Office</h5>
               <p className="leading-relaxed text-[11px] text-slate-500">
-                LEVEL 04, COREGROUND PLATMORE<br />
-                82 DUPLICATION ROAD, COLOMBO 03<br />
+                RETAILCORE LANKA<br />
+                WEERAKETIYA ROAD, MIDDENIYA<br />
                 SRI LANKA
               </p>
               <p className="mt-2 text-[10px] text-slate-400">
-                📧 engineering@retailcore.lk<br />
-                📞 +94 (11) 250-9944
+                📧 engineering@retailcorelanka.lk<br />
+                📞 +94 (71) 1012190
               </p>
             </div>
 
