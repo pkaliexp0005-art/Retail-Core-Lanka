@@ -117,7 +117,7 @@ export default function App() {
 
   const valueProps = [
     {
-      title: "Colombo Real-time Cloud Sync",
+      title: "Real-time Cloud Sync",
       desc: "Instant synchronization from hardware terminals to Central SaaS dashboards. Automatic transaction logging protected by AES-256.",
       icon: <Cloud className="w-6 h-6" />,
       color: "text-blue-500",
@@ -250,7 +250,7 @@ export default function App() {
                     href="#demo-form" 
                     className="w-full sm:w-auto px-8 py-4 bg-slate-900 border border-slate-800 text-slate-200 hover:text-white font-bold rounded-full hover:bg-slate-800 transition-all flex items-center justify-center gap-2 text-sm tracking-wide uppercase"
                   >
-                    Colombo Consultations
+                    Book Consultations
                   </a>
                 </div>
 
@@ -460,24 +460,24 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                quote: "Switching Colombo operations to Retailcore Lanka lowered blockages at our billing registers. The cloud sync is solid; we monitor stock metrics directly from our laptop anywhere.",
-                author: "Gamini Jayewardene",
-                role: "Operations Director, Lanka tea & spices",
-                location: "Colombo 03",
+                quote: "Switching to Retailcore Lanka systems lowered blockages at our billing registers. The cloud sync is solid; we monitor stock metrics directly from our laptop anywhere.",
+                author: "Owner",
+                role: "Guruge Stores",
+                location: "Tissa Road, Ranna",
                 stars: "⭐⭐⭐⭐⭐"
               },
               {
                 quote: "Before Retailcore, manual inventory tallying after hours was a nightmare for our staff. Now, stock levels reduce automatically as bills are scanned. Truly game-changing POS software.",
-                author: "Anushya Senaratne",
-                role: "Proprietor, Peacock Handlooms",
+                author: "Proprietor",
+                role: "Peacock Handlooms",
                 location: "Kandy Fort",
                 stars: "⭐⭐⭐⭐⭐"
               },
               {
-                quote: "Our tourist boutique handles both Cash and credit card transactions. The VAT billing reports and integrated LankaQR help us checkout tourists easily while syncing to central accounts.",
-                author: "Rashid Mohamed",
-                role: "Co-Founder, Coral Sands Exotics",
-                location: "Galle Fort",
+                quote: "Managing a hardware store involves tracking thousands of items and handling fast checkouts. The POS system from Retailcore Lanka handles our cash and card transactions seamlessly. The robust inventory tracking and daily billing reports have made running the shop incredibly efficient.",
+                author: "Owner",
+                role: "Dasa Hardware",
+                location: "Hungama road, Middeniya",
                 stars: "⭐⭐⭐⭐⭐"
               }
             ].map((test, i) => (
