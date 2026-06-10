@@ -453,7 +453,7 @@ export default function App() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-display font-black text-white">Loved by High-Growth Lankan Merchants</h2>
             <p className="text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed mt-4">
-              From Colombo multi-store fashion chains to tea bungalows in Nuwara Eliya, our system powers checkout speeds.
+              From multi-store supermarket chains to local hardware stores and boutiques, our POS system accelerates checkout speeds and simplifies inventory management.
             </p>
           </div>
 
@@ -527,7 +527,7 @@ export default function App() {
                   <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto mb-4" />
                   <h4 className="text-lg font-bold font-display uppercase tracking-wider text-emerald-400">Request Received</h4>
                   <p className="text-xs text-slate-300 mt-2 max-w-sm mx-auto leading-relaxed">
-                    Thank you! Our systems engineers in Colombo will schedule your consultation shortly. A custom configuration brief has been generated for your business profile.
+                    Thank you! Our systems engineers will schedule your consultation shortly. A custom configuration brief has been generated for your business profile.
                   </p>
                 </motion.div>
               ) : (
@@ -652,13 +652,13 @@ export default function App() {
 
             {/* Column 3: Colombo HQ */}
             <div>
-              <h5 className="font-bold text-white uppercase tracking-wider text-[10px] mb-4">Colombo HQ Office</h5>
+              <h5 className="font-bold text-white uppercase tracking-wider text-[10px] mb-4">RETAILCORE LANKA</h5>
               <p className="leading-relaxed text-[11px] text-slate-500">
                 RETAILCORE LANKA<br />
                 WEERAKETIYA ROAD, MIDDENIYA<br />
                 SRI LANKA
               </p>
-              <p className="mt-2 text-[10px] text-slate-400">
+              <p className="mt-2 text-[11px] text-slate-400">
                 📧 engineering@retailcorelanka.lk<br />
                 📞 +94 (71) 1012190
               </p>
@@ -683,7 +683,7 @@ export default function App() {
           </div>
 
           <div className="border-t border-slate-900/60 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500 font-mono">
-            <p>&copy; {new Date().getFullYear()} RETAILCORE LANKA (PVT) LTD. ALL RIGHTS RESERVED REGISTERED SME.</p>
+            <p>&copy; {new Date().getFullYear()} RETAILCORE LANKA. ALL RIGHTS RESERVED REGISTERED SME.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-white">TERMS OF SALE</a>
               <a href="#" className="hover:text-white">CLOUD SLA AGREEMENT</a>
